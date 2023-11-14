@@ -17,7 +17,6 @@ export default function Footer() {
   return (
     <footer
       className={classNames(
-        location === "/" ? "md:fixed md:bottom-0 md:inset-x-0" : "",
         "max-w-5xl mx-auto px-2 sm:px-6 lg:px-8 bg-transparent mt-5 py-10 "
       )}
     >
