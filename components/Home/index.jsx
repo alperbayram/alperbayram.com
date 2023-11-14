@@ -95,7 +95,7 @@ function HomePage() {
                   rel="noopener noreferrer"
                   className="underline decoration-emerald-500 hover:underline-offset-4 hover:font-medium hover:decoration-4"
                 >
-                  I also have a blog page on Medium
+                  I also blog on Medium
                 </a>
               </li>
             </ul>
@@ -200,10 +200,7 @@ function HomePage() {
               <li>Having knowledge about Microservice Architecture</li>
               <li>Application development with Node.js</li>
               <li>Creating and using REST APIs</li>
-              <li>
-                Interacting with customers and resolving software issues via
-                TeamViewer.
-              </li>
+              <li>Interacting with customers and resolving software issues via TeamViewer.</li>
               <li>Developing applications with Node.js serialport.</li>
               <li>Utilizing Git version control systems.</li>
               <li>Receiving training in occupational health and safety.</li>
