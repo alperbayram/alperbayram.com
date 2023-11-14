@@ -95,7 +95,7 @@ function HomePage() {
                   rel="noopener noreferrer"
                   className="underline decoration-emerald-500 hover:underline-offset-4 hover:font-medium hover:decoration-4"
                 >
-                  I also blog on Medium
+                  I also have a blog page on Medium
                 </a>
               </li>
             </ul>
@@ -197,16 +197,16 @@ function HomePage() {
             </div>
             <ul className="font-light text-gray-900 text-base list-disc list-inside">
               <li>Remote Work</li>
-              <li>I was on the backend-microservices team.</li>
-              <li>Introduction to microservice architecture.</li>
-              <li>Backend services with Nodejs.</li>
-              <li>Using Rest API in the project.</li>
-              <li>Crud operations with Postman.</li>
-              <li>Remote connection to customers with TeamViewer.</li>
-              <li>I did serial port operations with Nodejs.</li>
-              <li>Git version control and operations.</li>
-              <li>Use of task management.</li>
-              <li>I received occupational health and safety training.</li>
+              <li>Having knowledge about Microservice Architecture</li>
+              <li>Application development with Node.js</li>
+              <li>Creating and using REST APIs</li>
+              <li>
+                Interacting with customers and resolving software issues via
+                TeamViewer.
+              </li>
+              <li>Developing applications with Node.js serialport.</li>
+              <li>Utilizing Git version control systems.</li>
+              <li>Receiving training in occupational health and safety.</li>
             </ul>
           </div>
           <div className="space-y-2">
@@ -233,12 +233,12 @@ function HomePage() {
             </div>
             <ul className="font-light text-gray-900 text-base list-disc list-inside">
               <li>Hybrid Work</li>
-              <li>Responsive web page design.</li>
-              <li>Remote connection to customers with AnyDesk.</li>
-              <li>Web and mobile setup of mail accounts.</li>
-              <li>Operating system installation.</li>
-              <li>Computer hardware assembly and completion.</li>
-              <li>Using linux ubuntu as operating system.</li>
+              <li>Designing a responsive website.</li>
+              <li>Using Cloudflare and transferring web pages.</li>
+              <li>Connecting to customers via AnyDesk to resolve issues.</li>
+              <li>Setting up web and mobile mail services.</li>
+              <li>Installation and setup of operating systems.</li>
+              <li>Assembling computer components.</li>
             </ul>
           </div>
         </div>
