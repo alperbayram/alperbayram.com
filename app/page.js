@@ -1,13 +1,13 @@
 import HomePage from "@/components/Home";
 
 export const metadata = {
-  title: "Alper Bayram",
+  title: "Alper Bayram - Software Engineer | Web & Mobile App Development",
   description:
-    "As a Software Engineer, I've developed web and mobile apps using TypeScript/JavaScript, React Native, Node.js, and HTML/CSS. I have worked on both the frontend (React, Nextjs) and the backend (Node.js), creating responsive and user-friendly interfaces, as well as robust and scalable APIs and databases.",
+    "Alper Bayram is a skilled Software Engineer specializing in web and mobile app development. Experienced in TypeScript, React Native, Node.js, and more.",
   openGraph: {
-    title: "Alper Bayram",
+    title: "Alper Bayram - Software Engineer | Web & Mobile App Development",
     description:
-      "I am a Software Developer with a strong focus in Web Development. This is my personal website.",
+      "Alper Bayram is a skilled Software Engineer specializing in web and mobile app development. Experienced in TypeScript, React Native, Node.js, and more.",
   },
 };
 
