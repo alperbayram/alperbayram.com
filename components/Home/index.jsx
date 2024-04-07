@@ -45,7 +45,7 @@ function HomePage() {
             Alper Bayram
           </h1>
           <p className="mt-4 text-2xl font-medium text-gray-900 ">
-            I am a Software Developer with a strong focus in Web Development.
+            I am a Software Developer with a strong focus in Web & Mobile Development.
             <br />
             This is my personal website.
           </p>
@@ -108,6 +108,29 @@ function HomePage() {
             <h1 className="font-bold text-3xl text-emerald-500">
               Work Experience
             </h1>
+          </div>
+          <div className="space-y-2">
+            <div className="flex justify-start space-x-8">
+              <p className="font-medium text-gray-900 text-xl">
+                Full Stack Developer
+              </p>
+              <a
+                href="https://wastelog.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-gray-900 text-xl hover:text-emerald-500"
+              >
+                Waste Log
+              </a>
+            </div>
+            <div className="flex justify-start space-x-3">
+              <span className="text-sm text-gray-900 font-extralight">
+                Mar 2024 - Present
+              </span>
+              <span className="text-sm text-gray-900 font-extralight">
+                Istanbul, Türkiye - Remote
+              </span>
+            </div>
           </div>
           <div className="space-y-2">
             <div className="flex justify-start space-x-8">
