@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Footer() {
@@ -13,6 +13,8 @@ export default function Footer() {
   useEffect(() => {
     setLocation(webLocation);
   }, [webLocation]);
+
+  const year = new Date().getFullYear();
 
   return (
     <footer
@@ -23,7 +25,7 @@ export default function Footer() {
       <div className="max-w-5xl">
         <hr className="pb-10" />
         <div className="text-base font-medium">
-          <ul className="grid grid-cols-1 gap-y-2 gap-x-6 sm:grid-cols-5 xl:gap-x-8 justify-items-start px-6">
+          <ul className="grid grid-cols-1 gap-y-2 gap-x-6 sm:grid-cols-4 xl:gap-x-8 justify-items-center px-6">
             <li className="mr-3">
               <a
                 href="https://www.linkedin.com/in/alper-bayram"
@@ -44,16 +46,7 @@ export default function Footer() {
                 Medium{" "}
               </a>
             </li>
-            <li className="mr-3">
-              <a
-                href="https://codepen.io/alperbayrm"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-black flex gap-2"
-              >
-                Codepen{" "}
-              </a>
-            </li>
+
             <li className="mr-3">
               <a
                 href="https://github.com/alperbayram"
@@ -64,6 +57,16 @@ export default function Footer() {
                 Github{" "}
               </a>
             </li>
+            {/* <li className="mr-3">
+              <a
+                href="https://codepen.io/alperbayrm"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black flex gap-2"
+              >
+                Codepen{" "}
+              </a>
+            </li> */}
             <li className="mr-3">
               <a
                 href="https://twitter.com/alprbayram"
@@ -82,7 +85,7 @@ export default function Footer() {
             <Link href="/" className="text-gray-900 hover:text-emerald-500 ">
               Alper Bayram{" "}
             </Link>{" "}
-            2023
+            {year}
           </p>
         </div>
       </div>
