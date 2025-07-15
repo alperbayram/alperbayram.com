@@ -9,7 +9,7 @@ function HomePage() {
           <div className="flex flex-col items-center">
             <div className="w-40 h-40  md:w-48 md:h-48 mb-10 md:mb-0">
               <img
-                src="https://pbs.twimg.com/profile_images/1704479419476115456/XF3muQ_C_400x400.jpg"
+                src="https://media.licdn.com/dms/image/v2/D4D03AQEY6muCf0fwnw/profile-displayphoto-shrink_400_400/B4DZWelLVNGcAg-/0/1742122302733?e=1758153600&v=beta&t=m29-wvwKGNK4HYA4BkiQ9c4skTQHwrVOxRbZetXO0gU"
                 alt="alperbayram"
                 className="rounded-full max-w-full h-auto"
               />
