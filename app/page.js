@@ -13,8 +13,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="">
-      <HomePage />
+    <main className="flex items-center justify-center">
+      <HomePage lang="en" />
     </main>
   );
 }

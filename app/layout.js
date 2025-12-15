@@ -1,5 +1,6 @@
-import "./globals.css";
+import "./[lang]/globals.css";
 import { Inter } from "next/font/google";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -18,9 +19,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <main>{children}</main>
+    <html suppressHydrationWarning>
+      <body className={`${inter.className} flex flex-col min-h-screen`}>
+        <Navbar />
+        <main className="flex-grow flex items-center justify-center">
+          {children}
+        </main>
         <Footer />
         <Analytics />
       </body>
