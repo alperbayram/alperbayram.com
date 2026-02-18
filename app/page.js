@@ -1,20 +1,22 @@
 import HomePage from "@/components/Home";
+import { getDictionary } from "@/lib/i18n";
+import { buildHomeJsonLd, buildPageMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Alper Bayram - Software Engineer | Web & Mobile App Development",
-  description:
-    "Alper Bayram is a skilled Software Engineer specializing in web and mobile app development. Experienced in TypeScript, React Native, Node.js, and more.",
-  openGraph: {
-    title: "Alper Bayram - Software Engineer | Web & Mobile App Development",
-    description:
-      "Alper Bayram is a skilled Software Engineer specializing in web and mobile app development. Experienced in TypeScript, React Native, Node.js, and more.",
-  },
-};
+export function generateMetadata() {
+  const dict = getDictionary("tr");
+  return buildPageMetadata({ locale: "tr", path: "/", meta: dict.meta.home });
+}
 
 export default function Home() {
+  const jsonLd = buildHomeJsonLd("tr");
+
   return (
-    <main className="flex items-center justify-center">
-      <HomePage lang="en" />
-    </main>
+    <>
+      <HomePage lang="tr" />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd.person) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd.website) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd.service) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd.faq) }} />
+    </>
   );
 }

@@ -1,8 +1,228 @@
 {
-  "greeting": "Merhaba, ben",
-  "name": "Alper Bayram",
-  "title": "Yazılım Mühendisi",
-  "description": "Web ve Mobil Geliştirme konularında uzmanlaşmış bir Yazılım Mühendisiyim.",
-  "websiteNote": "Bu benim kişisel web sitemdir.",
-  "sayHi": "Merhaba De!"
+  "common": {
+    "name": "Alper Bayram",
+    "title": "Yazılım Mühendisi",
+    "email": "contact@alperbayram.com",
+    "appointmentMailto": "mailto:contact@alperbayram.com?subject=Randevu%20Talebi%20-%20Yazilim%20Projesi",
+    "location": "Uzaktan, Türkiye"
+  },
+  "meta": {
+    "home": {
+      "title": "Alper Bayram | Web, E-ticaret ve Mobil Uygulama Geliştirme",
+      "description": "Web sitesi satın al, yazılımcı bul ve yazılım desteği al arayışındaki startup'lara ve bireylere; kişisel web sitesi, kurumsal web sitesi, e-ticaret ve mobil uygulama geliştirme desteği sunuyorum.",
+      "keywords": [
+        "yazılım geliştirme",
+        "web sitesi satın al",
+        "web sitesi yaptır",
+        "seo uyumlu web sitesi yaptırma",
+        "yazılım destek uzmanı",
+        "yazılımcı bul",
+        "freelance yazılımcı bul",
+        "yazılım desteği al",
+        "startup yazılım desteği",
+        "web sitesi yapımı",
+        "e-ticaret sitesi yapımı",
+        "mobil uygulama geliştirme",
+        "Türkiye'de freelance yazılım mühendisi"
+      ]
+    },
+    "services": {
+      "web-development": {
+        "title": "Web Sitesi Geliştirme Hizmeti | Alper Bayram",
+        "description": "Web sitesi satın al veya web sitesi yaptırmak isteyen startup'lar ve bireyler için hızlı, SEO uyumlu ve dönüşüm odaklı geliştirme hizmeti.",
+        "keywords": [
+          "web sitesi geliştirme",
+          "web sitesi satın al",
+          "web sitesi yaptır",
+          "kurumsal web sitesi",
+          "kişisel web sitesi",
+          "seo uyumlu site",
+          "next.js geliştirici"
+        ]
+      },
+      "ecommerce-development": {
+        "title": "E-ticaret Geliştirme Hizmeti | Alper Bayram",
+        "description": "Ödeme entegrasyonlu, güçlü ürün yönetimine sahip ve ölçeklenebilir e-ticaret altyapıları.",
+        "keywords": [
+          "e-ticaret sitesi",
+          "online mağaza",
+          "e-ticaret mağaza entegrasyonu",
+          "kargo entegrasyonu",
+          "ödeme entegrasyonu",
+          "özel e-ticaret geliştirme",
+          "satış odaklı web sitesi"
+        ]
+      },
+      "mobile-app-development": {
+        "title": "Mobil Uygulama Geliştirme Hizmeti | Alper Bayram",
+        "description": "Yazılım desteği al ve mobil ürününü hızlıca yayına çıkar: iOS ve Android için güvenilir, ölçeklenebilir uygulamalar.",
+        "keywords": [
+          "mobil uygulama geliştirme",
+          "yazılım desteği al",
+          "react native",
+          "ios uygulaması",
+          "android uygulaması",
+          "startup mobil uygulama"
+        ]
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Startup'lar ve bireyler için yazılım desteği",
+      "heading": "İşinizi büyüten web, e-ticaret ve mobil ürünler",
+      "description": "Web sitesi satın al, yazılımcı bul veya yazılım desteği al ihtiyaçlarınızda; kişisel web sitesi, kurumsal web sitesi, e-ticaret ve mobil uygulama projeleri için uçtan uca geliştirme desteği sunuyorum.",
+      "primaryCta": "Randevu Al",
+      "secondaryCta": "E-posta Gönder"
+    },
+    "services": {
+      "heading": "Hizmetler",
+      "description": "Fikirden yayına kadar uçtan uca mühendislik desteği.",
+      "items": [
+        {
+          "slug": "web-development",
+          "title": "Web Sitesi Geliştirme",
+          "summary": "Kişisel ve kurumsal markalar için dönüşüm odaklı, teknik SEO altyapısı güçlü web siteleri.",
+          "linkLabel": "Web Geliştirme Detayı"
+        },
+        {
+          "slug": "ecommerce-development",
+          "title": "E-ticaret Geliştirme",
+          "summary": "Satışa uygun ürün, ödeme ve operasyon akışlarına sahip ölçeklenebilir e-ticaret sistemleri.",
+          "linkLabel": "E-ticaret Detayı"
+        },
+        {
+          "slug": "mobile-app-development",
+          "title": "Mobil Uygulama Geliştirme",
+          "summary": "Modern mimariyle güvenilir iOS ve Android deneyimi sunan mobil uygulamalar.",
+          "linkLabel": "Mobil Uygulama Detayı"
+        }
+      ]
+    },
+    "process": {
+      "heading": "Çalışma Süreci",
+      "steps": [
+        {
+          "title": "Keşif",
+          "description": "Hedefleri, kapsamı ve teknik gereksinimleri netleştiririz."
+        },
+        {
+          "title": "Geliştirme",
+          "description": "Önceliklendirilmiş özellikleri üretim kalitesinde geliştiririm."
+        },
+        {
+          "title": "Yayın",
+          "description": "Hız, SEO ve güvenilirlik odaklı canlıya alma sürecini yönetirim."
+        },
+        {
+          "title": "Destek",
+          "description": "Bakım, iyileştirme ve yeni özelliklerle süreci sürdürülebilir kılarım."
+        }
+      ]
+    },
+    "about": {
+      "heading": "Ben Kimim?",
+      "description": "Ben Alper Bayram; startup'lara ve bireysel müşterilere web, e-ticaret ve mobil uygulama projelerinde uçtan uca yazılım geliştirme desteği sunan bir yazılım mühendisiyim."
+    },
+    "faq": {
+      "heading": "Sık Sorulan Sorular",
+      "items": [
+        {
+          "question": "Startup ve bireysel müşterilerle çalışıyor musunuz?",
+          "answer": "Evet. Hem erken aşama startup'lara hem de bireysel profesyonellere yazılım geliştirme desteği veriyorum."
+        },
+        {
+          "question": "Web ve mobil projeleri birlikte yürütebilir misiniz?",
+          "answer": "Evet. Web ve mobil ürünleri tek bir ürün ve teknik stratejiyle birlikte geliştirebilirim."
+        },
+        {
+          "question": "SEO uyumlu web sitesi yapıyor musunuz?",
+          "answer": "Evet. Teknik SEO temellerini; yapısal metadata, semantik içerik ve performans odaklı geliştirme ile kuruyorum."
+        },
+        {
+          "question": "Mevcut proje için geliştirme desteği alabilir miyiz?",
+          "answer": "Evet. Mevcut kod tabanını denetleyip mimariyi iyileştirerek aşamalı geliştirmeler yapabilirim."
+        },
+        {
+          "question": "Yayın sonrası destek veriyor musunuz?",
+          "answer": "Evet. Yayın sonrası bakım, optimizasyon ve yeni özellik geliştirme desteği sunuyorum."
+        },
+        {
+          "question": "Yazılım destek uzmanı veya yazılımcı bulmak isteyenler için nasıl çalışıyorsunuz?",
+          "answer": "İhtiyaç analizi ile başlıyor, net kapsam ve teslim planı çıkarıyor, ardından geliştirme ve canlıya alma sürecini uçtan uca yönetiyorum."
+        },
+        {
+          "question": "Web sitesi satın al ya da yazılım desteği al süreci ne kadar sürer?",
+          "answer": "Projenin kapsamına göre değişir; ilk görüşmede süre ve yol haritasını netleştirip kısa sürede uygulamaya başlarız."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Sonraki projeniz için yazılım desteği mi arıyorsunuz?",
+      "description": "Web, e-ticaret veya mobil projeniz için hedeflerinizi konuşup net bir yol haritası çıkaralım.",
+      "primary": "Randevu Al",
+      "secondary": "E-posta Gönder"
+    }
+  },
+  "servicePages": {
+    "breadcrumbs": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetler"
+    },
+    "sections": {
+      "deliverables": "Neler Sunuyorum",
+      "process": "Uygulama Adımları",
+      "ctaTitle": "Bu hizmet için başlayalım mı?",
+      "ctaText": "Proje detaylarınızı paylaşın, size net bir uygulama yol haritası sunayım."
+    },
+    "items": {
+      "web-development": {
+        "name": "Web Sitesi Geliştirme",
+        "summary": "Teknik SEO altyapısı güçlü, hızlı ve dönüşüm odaklı web siteleri.",
+        "deliverables": [
+          "Kişisel ve kurumsal web sitesi geliştirme",
+          "Mobil ve masaüstü uyumlu responsive arayüz",
+          "Teknik SEO kurulumu (metadata, yapısal veri, sitemap)",
+          "Performans ve Core Web Vitals optimizasyonu"
+        ],
+        "process": [
+          "Proje kapsamlandırma ve sitemap planlaması",
+          "Tasarım sistemi ve sayfa mimarisi",
+          "Geliştirme, test ve canlıya alma"
+        ]
+      },
+      "ecommerce-development": {
+        "name": "E-ticaret Geliştirme",
+        "summary": "Satış, operasyon ve büyüme odaklı ölçeklenebilir e-ticaret deneyimi.",
+        "deliverables": [
+          "Vitrin ve ürün katalog yapısının kurulumu",
+          "Sepet ve ödeme entegrasyonu",
+          "Kargo entegrasyonları (kargo firmaları ve gönderi akışları)",
+          "E-ticaret mağaza entegrasyonları (pazaryeri ve mağaza sistemleri)",
+          "Sipariş, stok ve operasyon akışlarının kurulması",
+          "SEO uyumlu kategori ve ürün sayfası yapısı"
+        ],
+        "process": [
+          "İş modeli ve katalog analizinin yapılması",
+          "Ödeme, yönetim paneli ve operasyon akışlarının kurulması",
+          "Analitik ve dönüşüm takibi ile yayın"
+        ]
+      },
+      "mobile-app-development": {
+        "name": "Mobil Uygulama Geliştirme",
+        "summary": "Hızlı çıkan ve güvenle ölçeklenen çapraz platform mobil uygulamalar.",
+        "deliverables": [
+          "iOS ve Android uygulama geliştirme",
+          "API entegrasyonu ve backend haberleşmesi",
+          "Kimlik doğrulama ve kullanıcı akışlarının uygulanması",
+          "Yayın ve yayın sonrası iyileştirme desteği"
+        ],
+        "process": [
+          "Ürün gereksinimi ve özellik önceliklendirmesi",
+          "MVP teslimi ve iteratif yayın planı",
+          "Store yayını ve sürekli güncelleme"
+        ]
+      }
+    }
+  }
 }

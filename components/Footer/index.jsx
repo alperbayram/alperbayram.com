@@ -1,72 +1,36 @@
-"use client";
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+import React from "react";
 
 export default function Footer() {
-  const [location, setLocation] = useState("");
-  const webLocation = usePathname();
-  useEffect(() => {
-    setLocation(webLocation);
-  }, [webLocation]);
-
   const year = new Date().getFullYear();
 
   return (
-    <footer
-      className={classNames(
-        "max-w-5xl mx-auto px-2 pb-4 sm:px-6 lg:px-8 bg-transparent mt-5 sm:mt-40"
-      )}
-    >
-      <div className="max-w-5xl">
-        <hr className="pb-4" />
-        <div className="text-base font-medium">
-          <ul className="grid gap-y-2 gap-x-6 grid-cols-3 xl:gap-x-8 justify-items-center px-6">
-            <li className="mr-3">
-              <a
-                href="https://www.linkedin.com/in/alper-bayram"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-black flex gap-2"
-              >
-                Linkedln{" "}
-              </a>
-            </li>
-            <li className="mr-3">
-              <a
-                href="https://alper-bayram.medium.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-black flex gap-2"
-              >
-                Medium{" "}
-              </a>
-            </li>
+    <footer className="max-w-5xl mx-auto w-full px-4 pb-6 sm:px-6 lg:px-8">
+      <div className="border-t border-gray-200 pt-4">
+        <ul className="grid gap-3 sm:grid-cols-3 text-sm font-medium text-gray-700">
+          <li>
+            <a href="https://www.linkedin.com/in/alper-bayram" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://alper-bayram.medium.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              Medium
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/alperbayram" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              GitHub
+            </a>
+          </li>
+        </ul>
 
-            <li className="mr-3">
-              <a
-                href="https://github.com/alperbayram"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-black flex gap-2"
-              >
-                Github{" "}
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div className="flex justify-center pt-2">
-          <a
-            href="mailto:contact@alperbayram.com"
-            className="text-black flex gap-2"
-          >
+        <div className="mt-4 text-sm text-gray-700">
+          <a href="mailto:contact@alperbayram.com" className="hover:underline">
             contact@alperbayram.com
           </a>
         </div>
+
+        <p className="mt-3 text-xs text-gray-500">© {year} Alper Bayram</p>
       </div>
     </footer>
   );

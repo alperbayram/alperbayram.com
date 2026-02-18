@@ -1,8 +1,193 @@
 {
-  "greeting": "Hi, I am",
-  "name": "Alper Bayram",
-  "title": "Software Engineer",
-  "description": "I am a Software Engineer with a strong focus in Web & Mobile Development.",
-  "websiteNote": "This is my personal website.",
-  "sayHi": "Say Hi!"
+  "common": {
+    "name": "Alper Bayram",
+    "title": "Software Engineer",
+    "email": "contact@alperbayram.com",
+    "appointmentMailto": "mailto:contact@alperbayram.com?subject=Appointment%20Request%20-%20Software%20Project",
+    "location": "Remote, Turkey"
+  },
+  "meta": {
+    "home": {
+      "title": "Alper Bayram | Hire a Web, E-commerce & Mobile App Developer",
+      "description": "Need to hire a developer, build a website, or get software support? I help startups and businesses with web development, e-commerce development, and mobile app development.",
+      "keywords": [
+        "software development",
+        "hire developer",
+        "hire software developer",
+        "find software developer",
+        "software support services",
+        "build a website",
+        "web developer in Turkey",
+        "remote software developer",
+        "web development",
+        "e-commerce development",
+        "mobile app development",
+        "startup software support",
+        "freelance software engineer in Turkey"
+      ]
+    },
+    "services": {
+      "web-development": {
+        "title": "Web Development Services | Build a Website with Alper Bayram",
+        "description": "Need to build a website or hire a web developer? I deliver SEO-ready, conversion-focused websites for startups, businesses, and personal brands.",
+        "keywords": ["website development", "build a website", "hire web developer", "company website", "personal website", "seo-ready website", "next.js developer"]
+      },
+      "ecommerce-development": {
+        "title": "E-commerce Development Services | Alper Bayram",
+        "description": "Custom e-commerce development with payment, shipping, and store integrations for scalable online sales.",
+        "keywords": ["e-commerce development", "online store development", "e-commerce store integrations", "shipping integrations", "payment integration", "shopify alternatives", "custom e-commerce"]
+      },
+      "mobile-app-development": {
+        "title": "Mobile App Development Services | Alper Bayram",
+        "description": "Need a mobile app developer? I build scalable iOS and Android apps for startups and growing teams.",
+        "keywords": ["mobile app development", "hire mobile app developer", "react native developer", "ios app", "android app", "startup mobile app", "software support for mobile app"]
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Software support for startups and individuals",
+      "heading": "Web, e-commerce, and mobile apps that grow your business",
+      "description": "If you need to hire a developer, find software support, or build a website, I provide end-to-end delivery for web, e-commerce, and mobile products.",
+      "primaryCta": "Book an Appointment",
+      "secondaryCta": "Send an Email"
+    },
+    "services": {
+      "heading": "Services",
+      "description": "End-to-end engineering support from idea to production.",
+      "items": [
+        {
+          "slug": "web-development",
+          "title": "Website Development",
+          "summary": "Conversion-focused personal and company websites with strong technical SEO foundations.",
+          "linkLabel": "View Web Development"
+        },
+        {
+          "slug": "ecommerce-development",
+          "title": "E-commerce Development",
+          "summary": "Scalable online stores with product, payment, and operational workflows designed for growth.",
+          "linkLabel": "View E-commerce Development"
+        },
+        {
+          "slug": "mobile-app-development",
+          "title": "Mobile App Development",
+          "summary": "Reliable iOS and Android experiences using modern cross-platform architecture.",
+          "linkLabel": "View Mobile App Development"
+        }
+      ]
+    },
+    "process": {
+      "heading": "How I Work",
+      "steps": [
+        {"title": "Discovery", "description": "Clarify goals, scope, and technical constraints."},
+        {"title": "Build", "description": "Develop production-ready features with clear priorities."},
+        {"title": "Launch", "description": "Deploy and optimize for speed, SEO, and reliability."},
+        {"title": "Support", "description": "Iterate with maintenance and new feature delivery."}
+      ]
+    },
+    "about": {
+      "heading": "Who Am I?",
+      "description": "I am Alper Bayram, a software engineer providing end-to-end development support for startups and individual clients across web, e-commerce, and mobile products."
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Do you work with startups and individual clients?",
+          "answer": "Yes. I provide software development support for both early-stage startups and individual professionals."
+        },
+        {
+          "question": "Can you build both web and mobile products?",
+          "answer": "Yes. I build web platforms and mobile applications with a consistent product and technical strategy."
+        },
+        {
+          "question": "Do you offer SEO-friendly website development?",
+          "answer": "Yes. I set up technical SEO fundamentals including structured metadata, semantic content, and performance-oriented implementation."
+        },
+        {
+          "question": "Can you upgrade an existing project?",
+          "answer": "Yes. I can audit your current codebase, improve architecture, and ship incremental upgrades."
+        },
+        {
+          "question": "Do you provide ongoing support after launch?",
+          "answer": "Yes. I support projects after launch with maintenance, optimizations, and new features."
+        },
+        {
+          "question": "Can I hire you as a software support specialist for an existing project?",
+          "answer": "Yes. I provide software support services for active products, including bug fixing, feature delivery, and architecture improvements."
+        },
+        {
+          "question": "How quickly can we start if I need to hire a developer?",
+          "answer": "After a short discovery call, I define scope, timeline, and milestones so we can start implementation quickly."
+        }
+      ]
+    },
+    "cta": {
+      "heading": "Need software support for your next project?",
+      "description": "Let’s discuss your goals and define the right roadmap for web, e-commerce, or mobile.",
+      "primary": "Book an Appointment",
+      "secondary": "Send an Email"
+    }
+  },
+  "servicePages": {
+    "breadcrumbs": {
+      "home": "Home",
+      "services": "Services"
+    },
+    "sections": {
+      "deliverables": "What You Get",
+      "process": "Execution Steps",
+      "ctaTitle": "Ready to start this service?",
+      "ctaText": "Share your project details and get a clear implementation roadmap."
+    },
+    "items": {
+      "web-development": {
+        "name": "Web Development",
+        "summary": "High-performance websites with technical SEO and conversion-focused structure.",
+        "deliverables": [
+          "Personal and company website development",
+          "Responsive UI optimized for mobile and desktop",
+          "Technical SEO setup (metadata, structured data, sitemap)",
+          "Performance and Core Web Vitals optimization"
+        ],
+        "process": [
+          "Project scoping and sitemap planning",
+          "Design system and page architecture",
+          "Implementation, QA, and production deployment"
+        ]
+      },
+      "ecommerce-development": {
+        "name": "E-commerce Development",
+        "summary": "Scalable e-commerce experiences built for sales, operations, and growth.",
+        "deliverables": [
+          "Storefront and product catalog development",
+          "Checkout and payment integration",
+          "Shipping integrations (carriers and fulfillment workflows)",
+          "E-commerce store integrations (marketplaces and store platforms)",
+          "Order, stock, and operational flow setup",
+          "SEO-ready category and product page structures"
+        ],
+        "process": [
+          "Business model and catalog analysis",
+          "Checkout, payment, and admin workflows",
+          "Launch with analytics and conversion tracking"
+        ]
+      },
+      "mobile-app-development": {
+        "name": "Mobile App Development",
+        "summary": "Cross-platform mobile applications that ship quickly and scale safely.",
+        "deliverables": [
+          "iOS and Android app development",
+          "API integration and backend communication",
+          "Authentication and user flow implementation",
+          "Release support and post-launch improvements"
+        ],
+        "process": [
+          "Product requirement and feature prioritization",
+          "MVP delivery with iterative release plan",
+          "Store release and continuous updates"
+        ]
+      }
+    }
+  }
 }
