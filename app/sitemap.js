@@ -1,18 +1,20 @@
-import { absoluteUrl, SERVICE_SLUGS } from "@/lib/seo";
+import { absoluteUrl } from "@/lib/seo";
+import { getMediumPosts } from "@/lib/medium";
 
-export default function sitemap() {
+export default async function sitemap() {
   const now = new Date();
+  const posts = await getMediumPosts();
 
   const baseRoutes = ["/", "/en"];
-  const serviceRoutes = SERVICE_SLUGS.flatMap((slug) => [
-    `/services/${slug}`,
-    `/en/services/${slug}`,
+  const writingRoutes = posts.flatMap((post) => [
+    `/writing/${post.slug}`,
+    `/en/writing/${post.slug}`,
   ]);
 
-  return [...baseRoutes, ...serviceRoutes].map((path) => ({
+  return [...baseRoutes, ...writingRoutes].map((path) => ({
     url: absoluteUrl(path),
     lastModified: now,
     changeFrequency: "weekly",
-    priority: path.includes("/services/") ? 0.8 : 1,
+    priority: path.includes("/writing/") ? 0.8 : 1,
   }));
 }

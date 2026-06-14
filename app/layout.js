@@ -7,10 +7,10 @@ import { SITE_URL } from "@/lib/seo";
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Alper Bayram | Software Development Services",
+    default: "Alper Bayram",
     template: "%s",
   },
-  description: "Software development support for startups and individuals.",
+  description: "Personal site of Alper Bayram — software engineer, writer, and builder.",
 };
 
 export default function RootLayout({ children }) {

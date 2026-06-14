@@ -30,31 +30,26 @@ export default function Navbar() {
   const currentLang = getCurrentLang(pathname);
 
   return (
-    <nav className="sticky top-0 z-20 border-b border-gray-200 bg-white/90 backdrop-blur">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="h-16 flex items-center justify-between">
-          <Link href={currentLang === "en" ? "/en" : "/"} className="text-sm font-semibold tracking-wide text-gray-900">
-            ALPER BAYRAM
-          </Link>
+    <nav className="mx-auto w-full max-w-2xl px-4 pt-8">
+      <div className="flex items-center justify-between">
+        <Link href={currentLang === "en" ? "/en" : "/"} className="text-sm font-medium text-gray-900">
+          {currentLang === "en" ? "" : ""}
+        </Link>
 
-          <div className="flex items-center gap-2">
-            <Link
-              href={switchPath(pathname, "en")}
-              className={`px-3 py-1 rounded font-medium transition ${
-                currentLang === "en" ? "bg-emerald-500 text-white" : "text-black hover:bg-gray-100"
-              }`}
-            >
-              EN
-            </Link>
-            <Link
-              href={switchPath(pathname, "tr")}
-              className={`px-3 py-1 rounded font-medium transition ${
-                currentLang === "tr" ? "bg-emerald-500 text-white" : "text-black hover:bg-gray-100"
-              }`}
-            >
-              TR
-            </Link>
-          </div>
+        <div className="flex items-center gap-3 text-sm">
+          <Link
+            href={switchPath(pathname, "en")}
+            className={currentLang === "en" ? "font-semibold text-gray-900" : "text-gray-400 hover:text-gray-900"}
+          >
+            EN
+          </Link>
+          <span className="text-gray-300">/</span>
+          <Link
+            href={switchPath(pathname, "tr")}
+            className={currentLang === "tr" ? "font-semibold text-gray-900" : "text-gray-400 hover:text-gray-900"}
+          >
+            TR
+          </Link>
         </div>
       </div>
     </nav>
