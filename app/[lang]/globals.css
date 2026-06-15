@@ -19,6 +19,28 @@ html {
   display: none;
 }
 
+@keyframes photos-marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); } /* tam bir kopya genişliği = kusursuz döngü */
+}
+
+.photos-marquee {
+  animation: photos-marquee 40s linear infinite;
+  will-change: transform;
+}
+
+/* Masaüstünde üzerine gelince duraklat */
+.photos-marquee-viewport:hover .photos-marquee {
+  animation-play-state: paused;
+}
+
+/* Erişilebilirlik: hareketi azalt tercihine saygı */
+@media (prefers-reduced-motion: reduce) {
+  .photos-marquee {
+    animation-play-state: paused;
+  }
+}
+
 body {
   background-color: #ffffff;
   color: #111827;
