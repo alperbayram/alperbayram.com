@@ -47,6 +47,14 @@
             "after": "’da yazdığım yazılara göz atabilirsiniz.",
             "href": "https://alper-bayram.medium.com/"
           }
+        ],
+        "cv": [
+          {
+            "before": "Ayrıca ",
+            "label": "özgeçmişimi",
+            "after": " inceleyebilirsiniz.",
+            "href": "/cv/alper-bayram-cv-tr.pdf"
+          }
         ]
       }
     },

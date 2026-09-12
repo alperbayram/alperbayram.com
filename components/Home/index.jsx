@@ -6,6 +6,23 @@ import Photos from "@/components/Photos";
 const LINK_CLASS =
   "text-gray-900 underline decoration-gray-300 underline-offset-4 hover:decoration-gray-900";
 
+function InlineLinks({ parts }) {
+  return (
+    <p>
+      {parts.map((part, index) => (
+        <span key={index}>
+          {part.before}
+          <a href={part.href} target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
+            {part.label}
+          </a>
+          {part.after}
+          {index < parts.length - 1 ? " " : ""}
+        </span>
+      ))}
+    </p>
+  );
+}
+
 export default async function HomePage({ lang = "en" }) {
   const locale = normalizeLocale(lang);
   const t = getDictionary(locale);
@@ -27,18 +44,8 @@ export default async function HomePage({ lang = "en" }) {
 
       <section className="mt-6 space-y-4 text-base leading-7 text-gray-700">
         <p className="font-semibold text-gray-900">{intro.contact.lead}</p>
-        <p>
-          {intro.contact.links.map((part, index) => (
-            <span key={index}>
-              {part.before}
-              <a href={part.href} target="_blank" rel="noopener noreferrer" className={LINK_CLASS}>
-                {part.label}
-              </a>
-              {part.after}
-              {index < intro.contact.links.length - 1 ? " " : ""}
-            </span>
-          ))}
-        </p>
+        <InlineLinks parts={intro.contact.links} />
+        <InlineLinks parts={intro.contact.cv} />
       </section>
 
 

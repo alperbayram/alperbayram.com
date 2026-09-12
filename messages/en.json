@@ -47,6 +47,14 @@
             "after": ".",
             "href": "https://alper-bayram.medium.com/"
           }
+        ],
+        "cv": [
+          {
+            "before": "You can also view my ",
+            "label": "CV",
+            "after": ".",
+            "href": "/cv/alper-bayram-cv-en.pdf"
+          }
         ]
       }
     },
